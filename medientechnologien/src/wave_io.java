@@ -35,11 +35,10 @@ public class wave_io
 			sampleRate = readWavFile.getSampleRate();
 
 			String projectDir = System.getProperty("user.dir");
-			Writer writer = new OutputStreamWriter(new FileOutputStream(projectDir + "/output/samples.txt"), StandardCharsets.US_ASCII);
+			Writer writer = new OutputStreamWriter(new FileOutputStream(projectDir + "/medientechnologien/output/samples.txt"), StandardCharsets.US_ASCII);
 			// 2a Samples schreiben
 			for (int i=0; i < samples;i++) {
 				writer.write(String.valueOf(readWavFile.sound[i]) + "\n");
-				System.out.println(readWavFile.sound[i]);
 			}
 			writer.close();
 
