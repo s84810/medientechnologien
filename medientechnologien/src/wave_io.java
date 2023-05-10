@@ -33,9 +33,9 @@ public class wave_io
 			samples = (int)numFrames*numChannels;
 			validBits = readWavFile.getValidBits();
 			sampleRate = readWavFile.getSampleRate();
-
+			// Textdatei für samples laden
 			String projectDir = System.getProperty("user.dir");
-			Writer writer = new OutputStreamWriter(new FileOutputStream(projectDir + "/medientechnologien/output/samples.txt"), StandardCharsets.US_ASCII);
+			Writer writer = new OutputStreamWriter(new FileOutputStream(projectDir + "/output/samples.txt"), StandardCharsets.US_ASCII);
 			// 2a Samples schreiben
 			for (int i=0; i < samples;i++) {
 				writer.write(String.valueOf(readWavFile.sound[i]) + "\n");
@@ -59,27 +59,27 @@ public class wave_io
 		outFilename=args[1];
 		try {
 
-			// 2e Downsampling
-			for (int i=0; i < samples / 2; i++) {
-				readWavFile.sound[i] = readWavFile.sound[i * 2];
-				sampleRate = readWavFile.getSampleRate() / 2;
-				numFrames = readWavFile.getNumFrames() / 2;
-			}
+//			// 2e Downsampling
+//			for (int i=0; i < samples / 2; i++) {
+//				readWavFile.sound[i] = readWavFile.sound[i * 2];
+//			}
+//			sampleRate = readWavFile.getSampleRate() / 2;
+//			numFrames = readWavFile.getNumFrames() / 2;
 
 			// 3b Bitreduzierung
-			int reduced_bits = 1;
+			int reduced_bits = 11;
 			for (int i=0; i < samples;i++) {
 				readWavFile.sound[i] /= Math.pow(2, reduced_bits);
 				readWavFile.sound[i] *= Math.pow(2, reduced_bits);
 			}
 
-			// 3e Bitreduzierung Differenz
-			reduced_bits = 1;
-			for (int i=0; i < samples;i++) {
-
-				// ********* ToDo ***************
-
-			}
+//			// 3e Bitreduzierung Differenz
+//			reduced_bits = 1;
+//			for (int i=0; i < samples;i++) {
+//
+//				// ********* ToDo ***************
+//
+//			}
 
 			WavFile.write_wav(outFilename, numChannels, numFrames, validBits, sampleRate, readWavFile.sound);
 		} catch (Exception e) {
