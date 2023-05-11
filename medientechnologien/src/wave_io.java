@@ -66,20 +66,23 @@ public class wave_io
 //			sampleRate = readWavFile.getSampleRate() / 2;
 //			numFrames = readWavFile.getNumFrames() / 2;
 
-			// 3b Bitreduzierung
-			int reduced_bits = 11;
+//			// 3b Bitreduzierung
+//			int reduced_bits = 10;
+//			for (int i=0; i < samples;i++) {
+//				readWavFile.sound[i] /= Math.pow(2, reduced_bits);
+//				readWavFile.sound[i] *= Math.pow(2, reduced_bits);
+//			}
+
+			// 3e Bitreduzierung Differenz
+			int reduced_bits = 4;
+			double difference;
 			for (int i=0; i < samples;i++) {
+				double original = readWavFile.sound[i];
 				readWavFile.sound[i] /= Math.pow(2, reduced_bits);
 				readWavFile.sound[i] *= Math.pow(2, reduced_bits);
+				difference = (original - readWavFile.sound[i]) * Math.pow(2, 16 - reduced_bits - 1);
+				System.out.println(difference);
 			}
-
-//			// 3e Bitreduzierung Differenz
-//			reduced_bits = 1;
-//			for (int i=0; i < samples;i++) {
-//
-//				// ********* ToDo ***************
-//
-//			}
 
 			WavFile.write_wav(outFilename, numChannels, numFrames, validBits, sampleRate, readWavFile.sound);
 		} catch (Exception e) {
