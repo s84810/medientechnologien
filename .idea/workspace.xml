@@ -1,74 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8d759890-fa80-4939-9a97-52e0bd5aebbd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/medientechnologien/output/Sprache_LEAN.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medientechnologien/output/difference.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/audio/sine_hi06.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/audio/sine_hi06_downsampled.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/audio/sine_lo06.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/audio/sine_lo06_downsampled.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/pics/ue1/abtasttheorem.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/pics/ue1/code-bitreduzierung-diff.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/pics/ue1/code-samples.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/pics/ue1/gram-Musik_LEAN_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/pics/ue1/gram-Sprache_LEAN_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/txt/Musik_LEAN_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/txt/Musik_LEAN_12.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/txt/Sprache_LEAN_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/txt/Sprache_LEAN_12.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/txt/sine_hi06.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/txt/sine_lo06.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abgabe/audio/Musik_LEAN.wav" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/Musik_LEAN.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abgabe/audio/Musik_LEAN_10.wav" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/Musik_LEAN_10.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abgabe/audio/Musik_LEAN_12.wav" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/Musik_LEAN_12.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abgabe/audio/Musik_LEAN_8.wav" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/Musik_LEAN_8.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abgabe/audio/Sprache_LEAN.wav" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/Sprache_LEAN.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abgabe/audio/Sprache_LEAN_10.wav" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/Sprache_LEAN_10.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abgabe/audio/Sprache_LEAN_12.wav" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/Sprache_LEAN_12.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abgabe/audio/Sprache_LEAN_13.wav" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/Sprache_LEAN_13.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abgabe/audio/musik_mono.wav" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/musik_mono.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abgabe/audio/rauschen.wav" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/rauschen.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abgabe/format.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/format.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abgabe/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abgabe/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abgabe/links.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/links.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abgabe/oben.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/oben.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abgabe/pics/Koala.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/pics/Koala.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abgabe/pics/Penguins.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/pics/Penguins.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abgabe/pics/stadt.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/pics/stadt.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abgabe/pics/ue1/code-bitreduzierung.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/pics/ue1/code-bitreduzierung.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abgabe/pics/ue1/code-downsampling.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/pics/ue1/code-downsampling.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abgabe/pics/ue1/downsampling-sine_hi06.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/pics/ue1/downsampling-sine_hi06.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abgabe/pics/ue1/downsampling-sine_lo06.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/pics/ue1/downsampling-sine_lo06.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abgabe/pics/ue1/gram-Musik_LEAN.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/pics/ue1/gram-Musik_LEAN.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abgabe/pics/ue1/gram-Musik_LEAN_10.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/pics/ue1/gram-Musik_LEAN_10.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abgabe/pics/ue1/gram-Musik_LEAN_12.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/pics/ue1/gram-Musik_LEAN_12.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abgabe/pics/ue1/gram-Musik_LEAN_8.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/pics/ue1/gram-Musik_LEAN_8.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abgabe/pics/ue1/gram-Sprache_LEAN.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/pics/ue1/gram-Sprache_LEAN.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abgabe/pics/ue1/gram-Sprache_LEAN_10.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/pics/ue1/gram-Sprache_LEAN_10.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abgabe/pics/ue1/gram-Sprache_LEAN_12.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/pics/ue1/gram-Sprache_LEAN_12.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abgabe/pics/ue1/gram-Sprache_LEAN_13.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/pics/ue1/gram-Sprache_LEAN_13.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abgabe/pics/ue1/gram-sine_hi06.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/pics/ue1/gram-sine_hi06.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abgabe/pics/ue1/gram-sine_lo06.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/pics/ue1/gram-sine_lo06.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abgabe/pics/ue1/header-Musik_LEAN.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/pics/ue1/header-Musik_LEAN.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abgabe/pics/ue1/header-Sprache_LEAN.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/pics/ue1/header-Sprache_LEAN.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abgabe/pics/ue1/samples-sine_hi06.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/pics/ue1/samples-sine_hi06.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abgabe/pics/ue1/samples-sine_lo06.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/pics/ue1/samples-sine_lo06.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abgabe/txt/sine_hi06.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abgabe/txt/sine_lo06.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abgabe/ue1.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/ue1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abgabe/ue2.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/ue2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abgabe/ue3.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/ue3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abgabe/video/greenscreen.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/public/video/greenscreen.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abgabe/video/wildlife.webm" beforeDir="false" afterPath="$PROJECT_DIR$/public/video/wildlife.webm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medientechnologien/output/Musik_LEAN.wav" beforeDir="false" afterPath="$PROJECT_DIR$/medientechnologien/output/Musik_LEAN.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medientechnologien/output/sine_hi06.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/medientechnologien/output/sine_lo06.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/medientechnologien/src/wave_io.java" beforeDir="false" afterPath="$PROJECT_DIR$/medientechnologien/src/wave_io.java" afterDir="false" />
-    </list>
+    <list default="true" id="8d759890-fa80-4939-9a97-52e0bd5aebbd" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -139,7 +72,7 @@
       <workItem from="1683654530114" duration="5624000" />
       <workItem from="1683752270139" duration="8724000" />
       <workItem from="1683833134275" duration="6236000" />
-      <workItem from="1683908658964" duration="4410000" />
+      <workItem from="1683908658964" duration="5168000" />
     </task>
     <servers />
   </component>
